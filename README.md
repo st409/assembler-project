@@ -18,16 +18,14 @@ makefile: Build configuration for the project
 
 To build the project, use the provided Makefile:
 
-```bash
-make
+ ```make ```
 
 This will compile all the necessary files and create the shevy.as executable.
 
 ## Running the Project
 To run the project, use the following command:
 
-```bash
-./run file1 file2 ... fileN
+ ```./run file1 file2 ... fileN ```
 
 Important Note on File Names:
 
@@ -36,7 +34,7 @@ When specifying input files, omit the .as suffix. The assembler will automatical
 Input Files
 Input files should be in .as format and must include valid assembly code that adheres to the specified language syntax.
 
-Output Files
+## Output Files
 For each input file, the assembler produces the following output files:
 
 .am file: Contains the input file after macro expansion.
@@ -45,7 +43,7 @@ For each input file, the assembler produces the following output files:
 .ext file: Details external references used in the assembly code (if any).
 Examples of these output files can be found in the valid_inputs_examples/ directory.
 
-Binary Translation Process
+## Binary Translation Process
 During the assembly process, each instruction in the source code is converted into binary machine code through the following steps:
 
 Instruction Encoding: Each instruction is transformed into binary, with both the operation code (opcode) and operands encoded based on the chosen addressing mode (e.g., immediate, direct, or indirect).
@@ -57,7 +55,7 @@ A, R, E Fields: Each binary word includes A, R, and E fields to facilitate prope
 Error Handling
 The assembler includes comprehensive error checking to identify and report issues such as syntax errors, undefined symbols, and other problems that arise during the assembly process.
 
-Memory Management
+## Memory Management
 This project showcases advanced memory management techniques in C, including:
 
 Efficient allocation and deallocation of memory

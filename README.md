@@ -1,4 +1,4 @@
-## Assembler Project
+![image](https://github.com/user-attachments/assets/7022ed9d-d486-47a9-8798-e7e7c1148cd7)## Assembler Project
 Overview
 The Assembler Project is a tool designed to simplify the process of assembling code written in a custom assembly-like language. This project offers features for encoding instructions, handling parameters, and more.
 
@@ -12,20 +12,20 @@ Parameter Handling: Handle various types of parameters, including immediate valu
 Debugging and Error Handling: Robust error handling and debugging support to ensure accurate instruction processing and to facilitate troubleshooting during development.
 
 Key Files
-shevy.as: The compiled assembler executable
-makefile: Build configuration for the project
+ ```run ```: The compiled assembler executable
+ ```makefile ```: Build configuration for the project
 ## Build the Project
 
 To build the project, use the provided Makefile:
 
- ```make ```
+ make
 
 This will compile all the necessary files and create the shevy.as executable.
 
 ## Running the Project
 To run the project, use the following command:
 
- ```./run file1 file2 ... fileN ```
+./run file1 file2 ... fileN 
 
 Important Note on File Names:
 
@@ -37,10 +37,10 @@ Input files should be in .as format and must include valid assembly code that ad
 ## Output Files
 For each input file, the assembler produces the following output files:
 
-.am file: Contains the input file after macro expansion.
-.ob file: The object file that includes the compiled machine code.
-.ent file: Lists the entry points defined in the assembly code (if any).
-.ext file: Details external references used in the assembly code (if any).
+ ```.am ``` file: Contains the input file after macro expansion.
+ ```.ob ``` file: The object file that includes the compiled machine code.
+ ```.ent ``` file: Lists the entry points defined in the assembly code (if any).
+ ```.ext ``` file: Details external references used in the assembly code (if any).
 Examples of these output files can be found in the valid_inputs_examples/ directory.
 
 ## Binary Translation Process

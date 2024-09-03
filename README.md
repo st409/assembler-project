@@ -30,9 +30,9 @@ To run the project, use the following command:
 ```
 Important Note on File Names:
 
-When specifying input files, omit the .as suffix. The assembler will automatically add .as to the input file names. For example, to assemble a file named program.as, you should execute:
+When specifying input files, omit the .as suffix. The assembler will automatically add .as to the input file names.
 
-Input Files
+## Input Files
 Input files should be in .as format and must include valid assembly code that adheres to the specified language syntax.
 
 ## Output Files
@@ -53,7 +53,7 @@ For each input file, the assembler produces the following output files:
 * A, R, E Fields: Each binary word includes A, R, and E fields to facilitate proper linkage and loading of the machine code.
 
 ## Error Handling
-The assembler includes comprehensive error checking to identify and report issues such as syntax errors, undefined symbols, and other problems that arise during the assembly process.
+The assembler includes extensive error checking to detect and report problems such as syntax errors, undefined symbols, undefined operations, and other problems that arise during the assembly process.
 
 ## Memory Management
 This project showcases advanced memory management techniques in C, including:

@@ -12,8 +12,8 @@ Parameter Handling: Handle various types of parameters, including immediate valu
 Debugging and Error Handling: Robust error handling and debugging support to ensure accurate instruction processing and to facilitate troubleshooting during development.
 
 **Key Files**
- ```run ```: The compiled assembler executable
- ```makefile ```: Build configuration for the project
+ * ```run```: The compiled assembler executable.
+ * ```makefile```: Build configuration for the project
 ## Build the Project
 
 To build the project, use the provided Makefile:

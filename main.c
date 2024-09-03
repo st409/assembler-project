@@ -2,7 +2,6 @@
               MMN14 - final project - 2024B - 30/07/2024
 The authors of the project:
 Esti Hoba - 326041159 
-Batsheva Rosenblum - 214725251  
 *******************************************************************************/
 #include "macro_decoder.h"
 int main(int argc,char* argv[])

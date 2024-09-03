@@ -42,7 +42,6 @@ For each input file, the assembler produces the following output files:
  ```.ob ``` file: The object file that includes the compiled machine code.
  ```.ent ``` file: Lists the entry points defined in the assembly code (if any).
  ```.ext ``` file: Details external references used in the assembly code (if any).
-Examples of these output files can be found in the valid_inputs_examples/ directory.
 
 ## Binary Translation Process
 During the assembly process, each instruction in the source code is converted into binary machine code through the following steps:

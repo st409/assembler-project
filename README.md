@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7022ed9d-d486-47a9-8798-e7e7c1148cd7)## Assembler Project
+## Assembler Project
 Overview
 The Assembler Project is a tool designed to simplify the process of assembling code written in a custom assembly-like language. This project offers features for encoding instructions, handling parameters, and more.
 
@@ -17,8 +17,8 @@ Key Files
 ## Build the Project
 
 To build the project, use the provided Makefile:
-
- make
+```bash
+make
 
 This will compile all the necessary files and create the shevy.as executable.
 
@@ -52,7 +52,7 @@ Label Resolution: Operands that are labels are replaced with their respective me
 
 A, R, E Fields: Each binary word includes A, R, and E fields to facilitate proper linkage and loading of the machine code.
 
-Error Handling
+## Error Handling
 The assembler includes comprehensive error checking to identify and report issues such as syntax errors, undefined symbols, and other problems that arise during the assembly process.
 
 ## Memory Management

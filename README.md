@@ -11,7 +11,7 @@ Parameter Handling: Handle various types of parameters, including immediate valu
 
 Debugging and Error Handling: Robust error handling and debugging support to ensure accurate instruction processing and to facilitate troubleshooting during development.
 
-Key Files
+**Key Files**
  ```run ```: The compiled assembler executable
  ```makefile ```: Build configuration for the project
 ## Build the Project
@@ -19,14 +19,15 @@ Key Files
 To build the project, use the provided Makefile:
 ```bash
 make
+```
 
 This will compile all the necessary files and create the shevy.as executable.
 
 ## Running the Project
 To run the project, use the following command:
-
+```bash
 ./run file1 file2 ... fileN 
-
+```
 Important Note on File Names:
 
 When specifying input files, omit the .as suffix. The assembler will automatically add .as to the input file names. For example, to assemble a file named program.as, you should execute:

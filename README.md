@@ -61,5 +61,4 @@ This project showcases advanced memory management techniques in C, including:
 Efficient allocation and deallocation of memory
 Effective use of dynamic memory allocation
 Prevention of memory leaks through meticulous resource management
-Optimization of data structures to reduce memory usage
-
+Optimization of data structures to reduce memory usage.
